@@ -31,12 +31,8 @@ height:screen.height?screen.height:0,browser:i,browserVersion:s,mobile:l,os:u,os
 </head>
 <body>
     <div class="webgl-content">
-        <div id="gameContainer" style="width: 100%; height: 95%; margin: auto;"></div>
-        <div class="footer">
-            <div class="webgl-logo"></div>
-            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-            <div class="title">Snowball.IO Unblocked</div>
-        </div>
+        <div id="gameContainer" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0%;left:0px;right:0px;bottom:0px" height="100%" width="100%"></div>
+        
     </div>
 		<script>
        if (typeof getAdinDomain !== 'undefined') {
@@ -47,8 +43,7 @@ height:screen.height?screen.height:0,browser:i,browserVersion:s,mobile:l,os:u,os
             bodyTag.appendChild(addAdinPreroll);
         }
   </script>
-<h3><a href="../index.html">Sten Unblocked</a></h3>
-<h3><a id="likes" href="#" onclick="like()">Loading likes...</a></h3>
+
 
 <script>
 var game = "/snowball-io/";
